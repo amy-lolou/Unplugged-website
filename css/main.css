@@ -591,6 +591,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map iframe {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -659,6 +663,11 @@ input[type=button] {
   .contact-section .content-wrapper h2 {
     width: 95%;
   }
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
 
   /* FAQ Page */
   .faq h2 {
