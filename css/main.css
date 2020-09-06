@@ -106,6 +106,7 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #e2e3ed;
   font-size: 1em;
   text-align: left;
 }
@@ -118,7 +119,7 @@ ol {
 a {
   color: #e2e3ed;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 h2 {
@@ -293,6 +294,9 @@ input[type=button] {
 }
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -318,7 +322,13 @@ input[type=button] {
   margin: 0;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
