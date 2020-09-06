@@ -139,11 +139,15 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
+  margin: 0;
+}
 
+header figure {
+  width: 30%;
 }
 
 address {
@@ -233,10 +237,19 @@ footer .copyright {
 /* Main Page Styling */
 
 .hero-area {
+  min-height: 600px;
+}
+
+.hero-area {
+  background: url('../img/unplugged_hero.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
+
 
 .hero-area h1 {
   font-size: 2.25em;
